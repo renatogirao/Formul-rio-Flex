@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3102F74F1D551774005AFC78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F74E1D551774005AFC78 /* AppDelegate.swift */; };
+		3102F7511D551774005AFC78 /* AnotacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F7501D551774005AFC78 /* AnotacaoViewController.swift */; };
+		3102F7541D551774005AFC78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3102F7521D551774005AFC78 /* Main.storyboard */; };
+		3102F7571D551774005AFC78 /* Notas_Diarias.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3102F7551D551774005AFC78 /* Notas_Diarias.xcdatamodeld */; };
+		3102F7591D551775005AFC78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3102F7581D551775005AFC78 /* Assets.xcassets */; };
+		3102F75C1D551775005AFC78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3102F75A1D551775005AFC78 /* LaunchScreen.storyboard */; };
+		3102F7641D551DFE005AFC78 /* ListaAnotacoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3102F7631D551DFE005AFC78 /* ListaAnotacoesViewController.swift */; };
+		75E56EC3C7E720951EC22F99 /* Pods_Notas_Diarias.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6BA90966052EB0AC6F785BE /* Pods_Notas_Diarias.framework */; };
+		FA2517FA1ED5C63600C12400 /* voltar.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2517F81ED5C63600C12400 /* voltar.png */; };
+		FA2517FC1ED60A7100C12400 /* salvaar32bits.png in Resources */ = {isa = PBXBuildFile; fileRef = FA2517FB1ED60A7100C12400 /* salvaar32bits.png */; };
+		FA50D0CC1F02A8D6007B08FE /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA50D0CB1F02A8D6007B08FE /* InicioViewController.swift */; };
+		FA50D0CE1F02B124007B08FE /* flexARLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = FA50D0CD1F02B124007B08FE /* flexARLogo.png */; };
+		FA50D0D21F02B12E007B08FE /* logoFlexSemNome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA50D0D11F02B12E007B08FE /* logoFlexSemNome.jpg */; };
+		FA9799E41EDF09D900DBE5D7 /* logoFLex.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9799E31EDF09D900DBE5D7 /* logoFLex.png */; };
+		FA9D10E91F0411490024FD84 /* fundo madeira claro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA9D10E71F0411490024FD84 /* fundo madeira claro.jpg */; };
+		FA9D10EA1F0411490024FD84 /* fundo madeira escura.png in Resources */ = {isa = PBXBuildFile; fileRef = FA9D10E81F0411490024FD84 /* fundo madeira escura.png */; };
+		FAAA76BA1F0192B5006D8D8D /* message-closed-envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAA76B71F0192B5006D8D8D /* message-closed-envelope.png */; };
+		FAAA76BB1F0192B5006D8D8D /* telephone.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAA76B81F0192B5006D8D8D /* telephone.png */; };
+		FAAA76BC1F0192B5006D8D8D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAA76B91F0192B5006D8D8D /* user.png */; };
+		FAAA76BE1F01930C006D8D8D /* envelope.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAA76BD1F01930C006D8D8D /* envelope.png */; };
+		FAB964BA1EE709CD00F8F6A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAB964B91EE709CD00F8F6A7 /* GoogleService-Info.plist */; };
+		FAE363B91EF4565A0008AECA /* fundotablet.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE363B81EF4565A0008AECA /* fundotablet.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3102F74B1D551774005AFC78 /* Notas Diarias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notas Diarias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3102F74E1D551774005AFC78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3102F7501D551774005AFC78 /* AnotacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotacaoViewController.swift; sourceTree = "<group>"; };
+		3102F7531D551774005AFC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3102F7561D551774005AFC78 /* Notas_Diarias.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Notas_Diarias.xcdatamodel; sourceTree = "<group>"; };
+		3102F7581D551775005AFC78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3102F75B1D551775005AFC78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3102F75D1D551775005AFC78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3102F7631D551DFE005AFC78 /* ListaAnotacoesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaAnotacoesViewController.swift; sourceTree = "<group>"; };
+		D54C553C0B61606618831329 /* Pods-Notas Diarias.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notas Diarias.release.xcconfig"; path = "Pods/Target Support Files/Pods-Notas Diarias/Pods-Notas Diarias.release.xcconfig"; sourceTree = "<group>"; };
+		D6BA90966052EB0AC6F785BE /* Pods_Notas_Diarias.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Notas_Diarias.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9CD461A0CBA992BCDD114D /* Pods-Notas Diarias.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Notas Diarias.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Notas Diarias/Pods-Notas Diarias.debug.xcconfig"; sourceTree = "<group>"; };
+		FA2517F81ED5C63600C12400 /* voltar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = voltar.png; path = "../../Ícones/voltar.png"; sourceTree = "<group>"; };
+		FA2517FB1ED60A7100C12400 /* salvaar32bits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = salvaar32bits.png; path = "../../Ícones/salvaar32bits.png"; sourceTree = "<group>"; };
+		FA3F050D1EFC0FB900CB8C5D /* MANNS BARE HAND.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "MANNS BARE HAND.ttf"; path = "../../Fontes/MANNS BARE HAND.ttf"; sourceTree = "<group>"; };
+		FA50D0C81F0293EF007B08FE /* Doodle_Head.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Doodle_Head.ttf; path = ../../Fontes/Doodle_Head.ttf; sourceTree = "<group>"; };
+		FA50D0C91F02940C007B08FE /* FlexDisplay-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FlexDisplay-Thin.otf"; path = "../../Fontes/FlexDisplay-Thin.otf"; sourceTree = "<group>"; };
+		FA50D0CA1F029415007B08FE /* Doodle_Head.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Doodle_Head.ttf; path = ../../Fontes/Doodle_Head.ttf; sourceTree = "<group>"; };
+		FA50D0CB1F02A8D6007B08FE /* InicioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		FA50D0CD1F02B124007B08FE /* flexARLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = flexARLogo.png; path = ../../../../Desktop/flexARLogo.png; sourceTree = "<group>"; };
+		FA50D0D11F02B12E007B08FE /* logoFlexSemNome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = logoFlexSemNome.jpg; path = ../../../../Desktop/logoFlexSemNome.jpg; sourceTree = "<group>"; };
+		FA9799E31EDF09D900DBE5D7 /* logoFLex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoFLex.png; path = "../../Ícones/logoFLex.png"; sourceTree = "<group>"; };
+		FA9D10E61F040E810024FD84 /* Calibri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Calibri.ttf; path = ../../Fontes/Calibri.ttf; sourceTree = "<group>"; };
+		FA9D10E71F0411490024FD84 /* fundo madeira claro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "fundo madeira claro.jpg"; path = "../../Fundo de Tela/fundo madeira claro.jpg"; sourceTree = "<group>"; };
+		FA9D10E81F0411490024FD84 /* fundo madeira escura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "fundo madeira escura.png"; path = "../../Fundo de Tela/fundo madeira escura.png"; sourceTree = "<group>"; };
+		FAAA76B71F0192B5006D8D8D /* message-closed-envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "message-closed-envelope.png"; path = "../../Ícones/message-closed-envelope.png"; sourceTree = "<group>"; };
+		FAAA76B81F0192B5006D8D8D /* telephone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = telephone.png; path = "../../Ícones/telephone.png"; sourceTree = "<group>"; };
+		FAAA76B91F0192B5006D8D8D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = "../../Ícones/user.png"; sourceTree = "<group>"; };
+		FAAA76BD1F01930C006D8D8D /* envelope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = envelope.png; path = ../../../../Downloads/envelope.png; sourceTree = "<group>"; };
+		FAB964B91EE709CD00F8F6A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAE363B81EF4565A0008AECA /* fundotablet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fundotablet.png; path = ../../../../Desktop/fundotablet.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3102F7481D551774005AFC78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75E56EC3C7E720951EC22F99 /* Pods_Notas_Diarias.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B5B3B87A2D5383119C65CF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC9CD461A0CBA992BCDD114D /* Pods-Notas Diarias.debug.xcconfig */,
+				D54C553C0B61606618831329 /* Pods-Notas Diarias.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3102F7421D551774005AFC78 = {
+			isa = PBXGroup;
+			children = (
+				3102F74D1D551774005AFC78 /* Notas Diarias */,
+				3102F74C1D551774005AFC78 /* Products */,
+				FA6BF3361EF84F900070847C /* Arquivos Externos */,
+				1B5B3B87A2D5383119C65CF9 /* Pods */,
+				551CD2F1F461675CDBA36565 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3102F74C1D551774005AFC78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3102F74B1D551774005AFC78 /* Notas Diarias.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3102F74D1D551774005AFC78 /* Notas Diarias */ = {
+			isa = PBXGroup;
+			children = (
+				3102F74E1D551774005AFC78 /* AppDelegate.swift */,
+				FA50D0CB1F02A8D6007B08FE /* InicioViewController.swift */,
+				3102F7501D551774005AFC78 /* AnotacaoViewController.swift */,
+				3102F7631D551DFE005AFC78 /* ListaAnotacoesViewController.swift */,
+				3102F7521D551774005AFC78 /* Main.storyboard */,
+				3102F7581D551775005AFC78 /* Assets.xcassets */,
+				3102F75A1D551775005AFC78 /* LaunchScreen.storyboard */,
+				3102F75D1D551775005AFC78 /* Info.plist */,
+				3102F7551D551774005AFC78 /* Notas_Diarias.xcdatamodeld */,
+				FAB964B91EE709CD00F8F6A7 /* GoogleService-Info.plist */,
+			);
+			path = "Notas Diarias";
+			sourceTree = "<group>";
+		};
+		551CD2F1F461675CDBA36565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6BA90966052EB0AC6F785BE /* Pods_Notas_Diarias.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA6BF3361EF84F900070847C /* Arquivos Externos */ = {
+			isa = PBXGroup;
+			children = (
+				FA9D10E71F0411490024FD84 /* fundo madeira claro.jpg */,
+				FA9D10E81F0411490024FD84 /* fundo madeira escura.png */,
+				FA9D10E61F040E810024FD84 /* Calibri.ttf */,
+				FA50D0CD1F02B124007B08FE /* flexARLogo.png */,
+				FA2517F81ED5C63600C12400 /* voltar.png */,
+				FA2517FB1ED60A7100C12400 /* salvaar32bits.png */,
+				FAAA76B71F0192B5006D8D8D /* message-closed-envelope.png */,
+				FAAA76B81F0192B5006D8D8D /* telephone.png */,
+				FAAA76BD1F01930C006D8D8D /* envelope.png */,
+				FA50D0D11F02B12E007B08FE /* logoFlexSemNome.jpg */,
+				FAAA76B91F0192B5006D8D8D /* user.png */,
+				FA50D0C81F0293EF007B08FE /* Doodle_Head.ttf */,
+				FA9799E31EDF09D900DBE5D7 /* logoFLex.png */,
+				FAE363B81EF4565A0008AECA /* fundotablet.png */,
+				FA50D0C91F02940C007B08FE /* FlexDisplay-Thin.otf */,
+				FA50D0CA1F029415007B08FE /* Doodle_Head.ttf */,
+				FA3F050D1EFC0FB900CB8C5D /* MANNS BARE HAND.ttf */,
+			);
+			name = "Arquivos Externos";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3102F74A1D551774005AFC78 /* Notas Diarias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3102F7601D551775005AFC78 /* Build configuration list for PBXNativeTarget "Notas Diarias" */;
+			buildPhases = (
+				5056EE16059AEF659D407CD6 /* [CP] Check Pods Manifest.lock */,
+				3102F7471D551774005AFC78 /* Sources */,
+				3102F7481D551774005AFC78 /* Frameworks */,
+				3102F7491D551774005AFC78 /* Resources */,
+				890A5939DC119A29DC9B5D33 /* [CP] Embed Pods Frameworks */,
+				97584D62E00F73EC6DF6AE06 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Notas Diarias";
+			productName = "Notas Diarias";
+			productReference = 3102F74B1D551774005AFC78 /* Notas Diarias.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3102F7431D551774005AFC78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Jamilton  Damasceno";
+				TargetAttributes = {
+					3102F74A1D551774005AFC78 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KXUSNVLP69;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3102F7461D551774005AFC78 /* Build configuration list for PBXProject "Notas Diarias" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3102F7421D551774005AFC78;
+			productRefGroup = 3102F74C1D551774005AFC78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3102F74A1D551774005AFC78 /* Notas Diarias */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3102F7491D551774005AFC78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3102F75C1D551775005AFC78 /* LaunchScreen.storyboard in Resources */,
+				FA50D0CE1F02B124007B08FE /* flexARLogo.png in Resources */,
+				3102F7591D551775005AFC78 /* Assets.xcassets in Resources */,
+				FAE363B91EF4565A0008AECA /* fundotablet.png in Resources */,
+				FAAA76BC1F0192B5006D8D8D /* user.png in Resources */,
+				3102F7541D551774005AFC78 /* Main.storyboard in Resources */,
+				FAAA76BB1F0192B5006D8D8D /* telephone.png in Resources */,
+				FAAA76BA1F0192B5006D8D8D /* message-closed-envelope.png in Resources */,
+				FA2517FC1ED60A7100C12400 /* salvaar32bits.png in Resources */,
+				FA9799E41EDF09D900DBE5D7 /* logoFLex.png in Resources */,
+				FAAA76BE1F01930C006D8D8D /* envelope.png in Resources */,
+				FA50D0D21F02B12E007B08FE /* logoFlexSemNome.jpg in Resources */,
+				FA2517FA1ED5C63600C12400 /* voltar.png in Resources */,
+				FA9D10EA1F0411490024FD84 /* fundo madeira escura.png in Resources */,
+				FAB964BA1EE709CD00F8F6A7 /* GoogleService-Info.plist in Resources */,
+				FA9D10E91F0411490024FD84 /* fundo madeira claro.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5056EE16059AEF659D407CD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		890A5939DC119A29DC9B5D33 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notas Diarias/Pods-Notas Diarias-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97584D62E00F73EC6DF6AE06 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Notas Diarias/Pods-Notas Diarias-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3102F7471D551774005AFC78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3102F7571D551774005AFC78 /* Notas_Diarias.xcdatamodeld in Sources */,
+				3102F7511D551774005AFC78 /* AnotacaoViewController.swift in Sources */,
+				3102F7641D551DFE005AFC78 /* ListaAnotacoesViewController.swift in Sources */,
+				FA50D0CC1F02A8D6007B08FE /* InicioViewController.swift in Sources */,
+				3102F74F1D551774005AFC78 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3102F7521D551774005AFC78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3102F7531D551774005AFC78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3102F75A1D551775005AFC78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3102F75B1D551775005AFC78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3102F75E1D551775005AFC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3102F75F1D551775005AFC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3102F7611D551775005AFC78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9CD461A0CBA992BCDD114D /* Pods-Notas Diarias.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KXUSNVLP69;
+				INFOPLIST_FILE = "Notas Diarias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cursoios.Notas-Diarias32323";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3102F7621D551775005AFC78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D54C553C0B61606618831329 /* Pods-Notas Diarias.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KXUSNVLP69;
+				INFOPLIST_FILE = "Notas Diarias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cursoios.Notas-Diarias32323";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3102F7461D551774005AFC78 /* Build configuration list for PBXProject "Notas Diarias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3102F75E1D551775005AFC78 /* Debug */,
+				3102F75F1D551775005AFC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3102F7601D551775005AFC78 /* Build configuration list for PBXNativeTarget "Notas Diarias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3102F7611D551775005AFC78 /* Debug */,
+				3102F7621D551775005AFC78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3102F7551D551774005AFC78 /* Notas_Diarias.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3102F7561D551774005AFC78 /* Notas_Diarias.xcdatamodel */,
+			);
+			currentVersion = 3102F7561D551774005AFC78 /* Notas_Diarias.xcdatamodel */;
+			path = Notas_Diarias.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3102F7431D551774005AFC78 /* Project object */;
+}
